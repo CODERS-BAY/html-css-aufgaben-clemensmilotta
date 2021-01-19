@@ -62,4 +62,9 @@ img {
     article {
         width: auto;
     }
+
+    .flex {
+        flex-basis: 50%;
+    }
+
 }
