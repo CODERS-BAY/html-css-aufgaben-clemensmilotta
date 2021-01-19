@@ -1,0 +1,55 @@
+body {
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    color: black;
+    background-color: cornsilk;
+    margin: 0;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 2rem;
+    margin: 0%;
+}
+nav {
+    background-color: rgb(233, 231, 231);
+}
+nav ul{
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+nav a{
+    color: rgb(88, 86, 86);
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem;
+}
+nav a.aktuell {
+    font-weight: bold;
+}
+article {
+    width: 80%;
+    margin: 0.2rem
+}
+
+footer {
+background-color: darkgray;
+color: black;
+padding: 2rem;
+margin-top: 1rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 530px) {
+    main {
+        display: block;
+    }
+    article {
+        width: auto;
+    }
+}
