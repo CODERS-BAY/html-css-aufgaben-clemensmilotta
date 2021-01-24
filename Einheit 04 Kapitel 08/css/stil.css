@@ -24,6 +24,13 @@ h1 {
     margin: 0%;
 }
 
+.flex {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+
 #dick:hover {
     font-weight: bold;
 }
@@ -73,3 +80,6 @@ img {
     }
 
 }
+
+
+
