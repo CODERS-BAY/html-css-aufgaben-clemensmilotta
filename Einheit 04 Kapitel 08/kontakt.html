@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
     <link rel="stylesheet" a href="css/stil.css">
 
 </head>
+
 <body>
-    
+
     <header>
         <nav>
             <img src="/Einheit 04 Kapitel 08/img/logo_fb.png" width="200" height="200" alt="Logo Zoo Linz">
@@ -21,66 +23,97 @@
         <h1 id="headline">Hier tritts du mit uns in Kontakt</h1>
     </header>
 
-<h2>Es war noch nie so einfach mit dem Linzer Zoo in Kontakt zu treten</h2>
+    <h2>Es war noch nie so einfach mit dem Linzer Zoo in Kontakt zu treten</h2>
 
-<fieldset>
-    <legend>Deine persönlichen Angaben</legend>
-    <div class="flex"></div>
-    <label for="vorname">Vorname</label>
-    <input type="vname" name="vorname" id="vorname">
+    <fieldset>
+        <legend>Deine persönlichen Angaben</legend>
+        <div class="flex"></div>
+        <p>
+            <label for="vorname">Vorname</label>
+            <input type="vname" name="vorname" id="vorname">
 
-    <label for="nachname">Nachname</label>
-    <input type="nname" name="nachname"id="nachname">
+            <label for="nachname">Nachname</label>
+            <input type="nname" name="nachname" id="nachname">
 
-    <label for="emailadresse">Email</label>
-    <input type="email" name="emailadresse" id="emailadresse">
+            <label for="emailadresse">Email</label>
+            <input type="email" name="emailadresse" id="emailadresse">
+        </p>
 
-    
-</fieldset>
-<br>
+    </fieldset>
+    <br>
 
-<div class="flex">
-<label for="besuchertag">Besuchertag</label>
-<input type="date" name="besuchertag" id="besuchertag" required>
-</div>
+    <div class="flex">
+        <p>
+            <label for="besuchertag">Besuchertag</label>
+            <input type="date" name="besuchertag" id="besuchertag" required>
+    </div>
+    </p>
 
-<div class="flex">
-    <label>Besuchszeit</label>
-    <input type="time" name="besuchszeit" id="besuchszeit">
-</div>
+    <div class="flex">
+        <p>
+            <label>Besuchszeit</label>
+            <input type="time" name="besuchszeit" id="besuchszeit">
+    </div>
+    </p>
 
-<div class="flex">
-<label for="grad">Wie hat es Ihnen gefallen?</label>
-<input type="range" name="grad" id="grad">
-</div>
+    <div class="flex">
+        <p>
+            <label for="grad">Wie hat es Ihnen gefallen?</label>
+            <input type="range" name="grad" id="grad">
+    </div>
+</p>
 
-<div class="flex">
-    <label for=zurfriedenheit>Hat es Ihnen gefallen?</label>
-    <input type="radio" name="radiob"> Ja
-    <input type="radio" name="radiob"> Nein
-    <input type="radio" name="radiob"> Keine Angabe
-</div>
+    <div class="flex">
+<p>
 
-<div class="flex">
-    <label for="tierart">Welches tier hat Ihnen am besten gefallen?</label>
-    <input tyoe="text" list="tierliste" name="tierart" id="tierart">
-    <datalist id="tierliste">
-        <option value="Ziege">
-        <option value="Kängeruh">
-        <option value="Degu">
-        <option value="Erdmännchen">
-    </datalist>
-</div>
+        <label for=zurfriedenheit>Hat es Ihnen gefallen?</label>
+        <input type="radio" name="radiob"> Ja
+        <input type="radio" name="radiob"> Nein
+        <input type="radio" name="radiob"> Keine Angabe
+    </p>
+    </div>
 
-<div class="flex">
-<label for="kommentar">Kommentar</label>
-<textarea rows="5" cols="20" name=kommentar
-id="kommentar"></textarea>
+    <div class="flex">
+<p>
+        <label for="Tierart">Welches Tier hat Dir am besten gefallen?"</label>
+        <select name="Lieblingstiert" id="lieblingstier">
+            <option value="1">Ziege</option>
+            <option value="2">Kängeruh</option>
+            <option value="3">Degu</option>
+            <option value="4">Erdmännchen</option>
+        </select>
+    </p>
+    </div>
+
+    <div class="flex">
+<p>
+            <label for="kommentar">Kommentar</label>
+        <textarea rows="5" cols="20" name=kommentar id="kommentar"></textarea>
+    </p>
+    </div>
+
+    <div class="flex">
+<p>
+        <label for="besucherinfo">Welcher Art war Euer Besuch?</label>
+        <input type="text" list="intliste" name="besucherinfo" id="besucherinfo">
+        <datalist id="intliste">
+            <option value="Familienausflug">
+            <option value="Allein unterwegs">
+            <option value="Gruppenausflu">
+            <option value="Ausflug mit Freunde">
+            <option value="was anderes"></option>
+        </datalist>
+    </p>
+
+    <div class="flex">
+<p>
+    <input type="submit" value="Senden">
+</p>
+
+    </div>
 
 
-</div>
-
-<!--
+    <!--
 
 
 <form method="get" action="ausgabe.html">
@@ -97,4 +130,5 @@ id="kommentar"></textarea>
 -->
 
 </body>
+
 </html>
