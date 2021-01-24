@@ -23,6 +23,11 @@ h1 {
     padding: 2rem;
     margin: 0%;
 }
+
+#dick:hover {
+    font-weight: bold;
+}
+
 nav {
     background-color: rgb(233, 231, 231);
 }
