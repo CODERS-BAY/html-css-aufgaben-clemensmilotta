@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Linzer Zoo</title>
+    <link rel="stylesheet" a href="css/stil.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <img src="/Einheit 04 Kapitel 08/img/logo_fb.png" width="200" height="200" alt="Logo Zoo Linz">
+            <ul>
+                <li><a href="index.html" class="aktuell">Home</a></li>
+                <li><a href="info.html">Bewohnerinfos</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h1 id="headline">Hier tritts du mit uns in Kontakt</h1>
+    </header>
+
+    <h2>Es war noch nie so einfach mit dem Linzer Zoo in Kontakt zu treten</h2>
+
+    <form>
+    <fieldset>
+        <legend  id="dick">Deine persönlichen Angaben</legend>
+        <div class="flex"></div>
+       
+            <label for="vorname">Vorname</label>
+            <input type="vname" name="vorname" id="vorname">
+
+            <label for="nachname">Nachname</label>
+            <input type="nname" name="nachname" id="nachname">
+
+            <label for="emailadresse">Email</label>
+            <input type="email" name="emailadresse" id="emailadresse">
+   
+
+    </fieldset>
+    <br>
+
+    <div class="flex">
+   
+            <label for="besuchertag">Besuchertag</label>
+            <input type="date" name="besuchertag" id="besuchertag" required>
+    </div>
+  
+    <div class="flex">
+
+            <label>Besuchszeit</label>
+            <input type="time" name="besuchszeit" id="besuchszeit">
+    </div>
+
+
+    <div class="flex">
+   
+            <label for="grad">Wie hat es Ihnen gefallen?</label>
+            <input type="range" name="grad" id="grad">
+    </div>
+
+
+    <div class="flex">
+     
+
+            <label for=zurfriedenheit>Hat es Ihnen gefallen?</label>
+            <input type="radio" name="radiob"> Ja
+            <input type="radio" name="radiob"> Nein
+            <input type="radio" name="radiob"> Keine Angabe
+      
+    </div>
+
+    <div class="flex">
+    
+            <label for="Tierart">Welches Tier hat Dir am besten gefallen?"</label>
+            <select name="Lieblingstiert" id="lieblingstier">
+                <option value="1">Ziege</option>
+                <option value="2">Kängeruh</option>
+                <option value="3">Degu</option>
+                <option value="4">Erdmännchen</option>
+            </select>
+    
+    </div>
+
+    <div class="flex">
+  
+            <label for="kommentar">Kommentar</label>
+            <textarea rows="5" cols="20" name=kommentar id="kommentar" placeholder="Bitte gib hier deinen Kommentar ein."></textarea>
+    
+    </div>
+
+    <div class="flex">
+  
+            <label for="besucherinfo">Welcher Art war Euer Besuch?</label>
+            <input type="text" list="intliste" name="besucherinfo" id="besucherinfo">
+            <datalist id="intliste">
+                <option value="Familienausflug">
+                <option value="Allein unterwegs">
+                <option value="Gruppenausflu">
+                <option value="Ausflug mit Freunde">
+                <option value="was anderes"></option>
+            </datalist>
+ </div>
+   <section>
+        <div class="flex">
+   
+                <button type="submit">Senden</button>
+                <button type="reset">Eingaben zurücksetzen</button>
+    
+
+        </div>
+    </section>
+    </form>
+
+        <!--
+
+
+<form method="get" action="ausgabe.html">
+<div>
+    <label for="vorname">Vorname</label>
+    <input type="text" name="vorname" id="vorname">
+</div>
+<div>
+    <label for=nachname
+</div>
+
+</form>
+
+-->
+
+</body>
+
+</html>
