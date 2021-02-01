@@ -1,17 +1,21 @@
 body {
     font-size: 120%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif, 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
     line-height: normal;
     color: black;
     background-color: rgb(245, 244, 239);
     margin: 0;
+    background-image: url('/Einheit\ 06\ Kapitel\ 10\ -\ 11/img/backg.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 body {
     padding: 5%;
 }
 
-p::before, p::after {
+p::before {
     content: " ";
     padding: 15px;
     background-image: url('/Einheit\ 04\ Kapitel\ 08/img/banana.png');
@@ -20,6 +24,20 @@ p::before, p::after {
     background-position: left center;
 }
 
+/*  p::after */
+
+
+p.normal {
+    font-weight: normal;
+  }
+
+.schatten1 {
+    text-shadow: 2px 1px 0px rgb(134, 131, 131); 
+}
+
+.schatten2 {
+    text-shadow:2px 1px 0px darkcyan;
+}
 th,
 td {
     border: 1px solid rgb(121, 114, 114);
@@ -36,8 +54,19 @@ h1 {
     text-align: center;
     padding: 2rem;
     margin: 0%;
+    text-shadow:3px 4px 0px rgb(20, 54, 54);
 }
-
+.wichtig {
+    color:darkcyan;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 2rem;
+    margin: 0%;
+    text-shadow:2px 2px 0px rgb(164, 112, 224);
+}
 .flex {
     width: 100%;
     display: flex;
@@ -62,7 +91,7 @@ nav ul {
 }
 
 nav a {
-    color: rgb(167, 167, 167);
+    color: rgb(39, 35, 35);
     text-decoration: none;
     display: block;
     padding: 0.8rem;
@@ -89,6 +118,11 @@ img {
     height: auto;
 }
 
+.spacing {
+    letter-spacing: 2px;
+    
+}
+
 @media screen and (max-width: 530px) {
     main {
         display: block;
@@ -101,5 +135,8 @@ img {
     .flex {
         flex-basis: 50%;
     }
+
+
+
 
 }
