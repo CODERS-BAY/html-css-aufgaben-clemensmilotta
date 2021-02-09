@@ -1,0 +1,10 @@
+.bildlinks {
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.bildrechts {
+    float: right;
+    margin-left: 0.5rem;
+   
+}
