@@ -1,0 +1,122 @@
+body {
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif, 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+    line-height: normal;
+    color: black;
+    margin: 0;
+    background-image: url('/Einheit\ 06\ Kapitel\ 10\ -\ 11/img/higru1.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    padding: 5%;
+}
+
+
+
+th,
+td {
+    border: 1px solid rgb(121, 114, 114);
+    padding: 0.5rem;
+}
+
+table {
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 2rem;
+    margin: 0%;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 2rem;
+    margin: 0%;
+}
+.flex {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+
+#dick:hover {
+    font-weight: bold;
+}
+
+nav {
+    height: auto;
+    background-color: rgb(233, 231, 231);
+   background: url(https://pixabay.com/get/g7164cbfdaa9b3bb539d9d087bd4e908efbb5fa17af8f28ced9b8e695e8cb6724d382b60feace37f295bfa329efd60406_1280.jpg);
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: rgb(39, 35, 35);
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem;
+}
+
+nav a.aktuell {
+    font-weight: bold;
+}
+
+article {
+    width: 80%;
+    margin: 0.2rem
+}
+
+footer {
+    background-color: darkgray;
+    color: black;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wichtig {
+    color:darkcyan;
+}
+
+p {
+    letter-spacing: 2px;
+}
+.eins {
+    width:400px;
+}
+
+@media screen and (max-width: 530px) {
+    main {
+        display: block;
+    }
+
+    article {
+        width: auto;
+    }
+
+    .flex {
+        flex-basis: 50%;
+    }
+
+
+
+
+}
