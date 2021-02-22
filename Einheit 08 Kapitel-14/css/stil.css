@@ -26,3 +26,14 @@
 .cl {
     clear: both;
 }
+
+p {
+    border: 3px solid #f43a12;
+    background-color: #c4f5f4;
+}
+
+.cf::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
