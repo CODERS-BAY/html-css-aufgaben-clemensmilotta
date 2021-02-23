@@ -1,0 +1,45 @@
+.bildlinks {
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.bildrechts {
+    float: right;
+    margin-left: 0.5rem;
+   
+}
+
+.zitat {
+    float: left;
+    width: 15rem;
+    background-color: #c4f5f4;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 0 1rem 0.5rem 0;;
+}
+
+.rechts {
+    float: right;
+    margin-left: 1rem;
+}
+
+.cl {
+    clear: both;
+}
+
+
+
+.cf::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.umfl {
+    float: left;
+    margin-right: 0.5rem;
+    shape-outside: url(bilder/cat.png);
+    shape-margin: 0.5rem;
+}
+
+
