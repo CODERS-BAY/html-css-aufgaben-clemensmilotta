@@ -72,7 +72,8 @@ Inhalte der Übung
                 'rightNumberRightPosition': 0,
                 'rightNumber': 0
 
-            if (round )
+
+let userChoice = document.getElementById('breakTheCode').value;
 
             // wenn Runde ist 2
             // Entferne Klasse'd-none' von "Aufgeben" Button
@@ -87,6 +88,8 @@ Inhalte der Übung
             // Um zu überprüfen ob die Zahl vorkommt UND an der richtigen Stelle ist braucht ihr
             // eine for-Schleife in der for-Schleife
             for (let i = 0; i < 3; i++) {
+                let (tip =userChoice.charAT(i);
+                )
                 // deklariere eine Variable namens tip und speichere den Inhalt der Variable charAt an der Stelle i darin ab
                 /* dein Code hier */
                 for (let j = 0; j < 3; j++) {
@@ -129,8 +132,8 @@ Inhalte der Übung
             }
         }
         function disablePlayButtons() {
-            // Entferne von dem Button mit der id reload die KLasse d-none
-            /* dein Code hier */
+         document.getElementById('reload').classList.remove('d-none');
+
         }
         function codeToBreak(codeBreak) {
             // Gib folgendes aus (erweitere die ausgabe mit +=) im Tag mit der ID output
@@ -141,7 +144,7 @@ Inhalte der Übung
            */
         }
         function checkNumbers(tip, comp, posUser, posComp, checkNumber) {
-            // Wenn die Variable tip gleich com und posCom gleich posUser ist
+           if (tip == comp && posComp == posUser  )
             /* dein Code hier */
             // ist checkNumber['rightNumberRightPosition'] gleich checkNumber['rightNumberRightPosition'] + 1 bedeutet richtige Zahl an richtiger Stelle
             /* dein Code hier */
