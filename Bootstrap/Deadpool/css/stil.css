@@ -1,0 +1,25 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(226, 27, 27);
+    color: white;
+    text-align: center;
+}
+
+body {
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    color: black;
+    background-color: rgb(253, 253, 253);
+    background-image: url(/Deadpool/bilder/head2.jpeg);
+    margin: 0;
+}
+
+header {
+    background-image: url(/Deadpool/bilder/head2.jpeg) no-repeat;
+    background-size: cover;
+}
+
