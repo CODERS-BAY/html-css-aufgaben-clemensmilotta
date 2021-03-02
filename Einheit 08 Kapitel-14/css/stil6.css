@@ -1,0 +1,32 @@
+body {
+  background: rgb(201, 190, 190);
+  font: sans-serif;
+}
+
+.innen {
+  position: relative;
+ display:flex;
+}
+
+.innen img {
+  display:flex;
+}
+
+.innen figcaption {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  height: 2.5em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  background-color: rgba(0, 0,0, 0.8);
+  color: #fff;
+}
